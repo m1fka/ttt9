@@ -1,6 +1,15 @@
-/* html {
+html {
     color-scheme: light;
-} */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {}
+}
+
+@media (prefers-color-scheme: light) {
+    body {}
+}
+
 
 body {
     /* touch-action: pan-x pan-y; */
